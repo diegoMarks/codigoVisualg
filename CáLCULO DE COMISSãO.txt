@@ -1,0 +1,29 @@
+algoritmo "Cálculo de comissão"
+
+var
+id_vendedor, cod_peca, quantidade_vendida : inteiro
+preco_unidade, valor_bruto_venda, comissao_vendedor : real
+
+inicio
+
+escreval("Cálculo de comissão do vendedor pelas vendas")
+escreval(" ")
+escreva("Insira o ID do vendedor: ")
+leia(id_vendedor)
+escreva("Insira o código da peça: ")
+leia(cod_peca)
+escreva("Insira a quantidade vendida: ")
+leia(quantidade_vendida)
+escreva("Insira o preço de cada unidade vendida: ")
+leia(preco_unidade)
+escreval(" ")
+escreval(" ")
+
+
+valor_bruto_venda <- (quantidade_vendida * preco_unidade)
+comissao_vendedor <- ((valor_bruto_venda*5)/100)
+
+escreval("A quantidade vendida foi de: ", valor_bruto_venda)
+escreva("A comissão do vendedor é de: ", comissao_vendedor)
+
+fimalgoritmo

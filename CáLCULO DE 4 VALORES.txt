@@ -1,0 +1,46 @@
+algoritmo "Cálculo de 4 valores"
+
+var
+a,b,c,d : inteiro
+f,g,h,i,x: real
+
+inicio
+
+
+
+escreval("Inicio do Algoritmo. Insira os números conforme solicitado")
+escreval(" ")
+escreva("Insira o primeiro número: ")
+leia(a)
+escreva("Insira o segundo número: ")
+leia(b)
+escreva("Insira o terceiro número: ")
+leia(c)
+escreva("Insira o quarto número: ")
+leia(d)
+escreval(" ")
+
+f <- a^2
+g <- b^2
+h <- c^2
+i <- d^2
+
+
+escreval("Cálculando os números iseridos ao quadrado..")
+escreval("Resultado:")
+escreva("Valor do primeiro número ao quadrado: ", f)
+escreval("")
+escreva("Valor do segundo número ao quadrado: ", g)
+escreval("")
+escreva("Valor do terceiro número ao quadrado: ", h)
+escreval("")
+escreva("Valor do quarto número ao quadrado: ", i)
+escreval(" ")
+escreval(" ")
+
+
+x <- (f+g+h+i)
+escreval("Somando todos os números ao quadrado..")
+escreva("Resultado: ", x)
+
+fimalgoritmo

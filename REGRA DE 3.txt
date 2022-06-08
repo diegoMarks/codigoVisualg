@@ -1,0 +1,65 @@
+algoritmo "Regra de 3"
+
+var
+a,b,c,d: inteiro
+x: real
+
+inicio
+escreva("Escreva o primeiro número: ")
+leia(a)
+escreva("Escreva o segundo número: ")
+leia(b)
+escreva("Escreva o terceiro número: ")
+leia(c)
+escreva("Escreva o quarto número: ")
+leia(d)
+
+
+
+        se a>0  entao
+          se b>0    entao
+             se c>0  entao
+                x <- ((b*c)\a)
+                escreva("X vale: ", x)
+                leia(x)
+             fimse
+          fimse
+      fimse
+      
+      
+      
+      se a>0  entao
+          se c>0    entao
+             se d>0  entao
+                x <- ((a*d)\c)
+                escreva("X vale: ", x)
+                leia(x)
+             fimse
+          fimse
+      fimse
+      
+
+      
+      se b>0  entao
+          se c>0    entao
+             se d>0  entao
+                x <- ((b*c)\d)
+                escreva("X vale: ", x)
+                leia(x)
+             fimse
+          fimse
+      fimse
+      
+      
+      se a>0  entao
+          se b>0    entao
+             se d>0  entao
+                x <- ((a*d)\b)
+                escreva("X vale: ", x)
+                leia(x)
+             fimse
+          fimse
+      fimse
+      
+
+fimalgoritmo

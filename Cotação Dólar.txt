@@ -1,0 +1,24 @@
+Algoritmo "Dólar"
+
+var
+a,b,c: real
+
+inicio
+
+escreva("Insira a cotação do Dólar de hoje -> ")
+leia(a)
+escreval(" ")
+escreval("Cotação do dólar hoje: ", a)
+escreval("***************************************")
+escreval(" ")
+
+escreva("Insira um valor em dólares -> ")
+leia(b)
+escreval(" ")
+
+
+c <- (a*b)
+
+
+escreva("Este valor em Reais é de ", c)
+fimalgoritmo
